@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'battery';
+  src:  url('font-bat/battery.eot?obnxe1');
+  src:  url('font-bat/battery.eot?obnxe1#iefix') format('embedded-opentype'),
+    url('font-bat/battery.ttf?obnxe1') format('truetype'),
+    url('font-bat/battery.woff?obnxe1') format('woff'),
+    url('font-bat/battery.svg?obnxe1#battery') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bat-"], [class*=" bat-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'battery' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bat-battery-charge1:before {
+  content: "\e910";
+}
+.bat-battery-high:before {
+  content: "\e911";
+}
+.bat-battery-mid:before {
+  content: "\e912";
+}
+.bat-battery-low:before {
+  content: "\e913";
+}

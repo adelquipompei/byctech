@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9njjwi');
+  src:  url('fonts/icomoon.eot?9njjwi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9njjwi') format('truetype'),
+    url('fonts/icomoon.woff?9njjwi') format('woff'),
+    url('fonts/icomoon.svg?9njjwi#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('font-nav/icomoon.eot?bd7irf');
+  src:  url('font-nav/icomoon.eot?bd7irf#iefix') format('embedded-opentype'),
+    url('font-nav/icomoon.ttf?bd7irf') format('truetype'),
+    url('font-nav/icomoon.woff?bd7irf') format('woff'),
+    url('font-nav/icomoon.svg?bd7irf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-folder-open1:before {
+  content: "\e930";
+}
+
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-folder-open:before {
+  content: "\e900";
+}
+
+.icon-mail:before {
+  content: "\e908";
+}
+.icon-briefcase:before {
+  content: "\e903";
+}
+.icon-home3:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-phone:before {
+  content: "\e907";
+}
+.icon-engineering2:before {
+  content: "\e906";
+}
+.icon-engineering:before {
+  content: "\e902";
+}
+.icon-handyman:before {
+  content: "\e901";
+}
+.icon-arrow:before {
+  content: "\e909";
+  color: #fff;
+}
+
