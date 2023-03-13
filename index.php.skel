@@ -20,18 +20,7 @@
 </div>
 
 <header>
-	<div class="width_wrap">
-    <h1>Web Hosting</h1>
-	    <div class="bloque-azul">
-	    	<div class="img"><img src="img/img-box.png"></div>
-	    	<div class="texto">
-	    		<h2>¡Tu hosting ya está listo!</h2>
-	    		<p>Esta página se publicó en forma automática para indicar la correcta creación y funcionsadadsadasdddadsmiento de tu nueva cuenta de hostingasasdasdashjaskfhjkdhfkjhsdfjkhsdjfhjsfdhy brindarte contenido de ayuda para que lo aproveches al máximo.
-	    		<br><strong>La misma será reemplazada por tu sitio cuando lo publiques.</strong>
-			</p>
-	    	</div>
-	    </div>
-    </div>
+	<div><h1>holaa</h1></div>
 </header>
 
 <section class="difm">
