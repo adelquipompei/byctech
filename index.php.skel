@@ -20,23 +20,7 @@
 </div>
 
 <header>
-	<div><h1>holaa</h1></div>
-	<div class="hola1">
-		<div class="hi1"></div>
-		<div class="hi2"></div>
-	</div>
-	<div class="hola2">
-		<div class="hi1"></div>
-		<div class="hi2"></div>
-	</div>
-	<div class="hola3">
-		<div class="hi1"></div>
-		<div class="hi2"></div>
-	</div>
-	<div class="hola4">
-		<div class="hi1"></div>
-		<div class="hi2"></div>
-	</div>
+	este es el ultomo cambio
 </header>
 
 <section class="difm">
