@@ -60,7 +60,7 @@
 <!-------------------------PANTALLA DE CARGA---------------------------------------------------------------------->
 
 
-<section class="a container-fluid">
+<section id="a" class="a container-fluid">
 <span class="load d-flex align-items-center m-auto justify-content-center" id="loadpage"><img src="loading.gif" alt=""></span>
 </section>
 
