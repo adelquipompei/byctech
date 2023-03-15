@@ -65,14 +65,6 @@
 </section>
 
 
-<div id="caja" class="caja ">
-			<div class="llamanos shadow bg-tech  ">
-						<div id="hand" style="">
-							<img class="" src="img/hand.png" alt="" style="width: 180px;height: auto; position:absolute ;left: 16px;top: 46px;">
-						</div>
-
-			</div>
-</div>
 
 <!-----------------------------------NAV--------------------------------------------------------->
 
