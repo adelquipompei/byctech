@@ -45,6 +45,46 @@
 
   <article class="">
 
+    
+      
+
+
+    <section class="auto-article row my-5">  
+
+      <div class="col-md-6" style="">
+        <img src="img/provimi.png" alt=""> 
+      </div>
+
+      
+      <div class="col-md-6">
+
+        <h3 class="h2 bd-callout px-2">Sistema On-grid 50KWp - PROVIMI S.A</h3>
+        <p style="text-align: justify;">
+
+Estamos encantados de anunciar que hemos completado una nueva instalación fotovoltaica de 50KWp On grid en la empresa Provimi S.A radicada en la ciudad de Venado Tuerto, Santa Fe. La instalación consta de 90 paneles fotovoltaicos de 545Wp. Gracias al nuevo programa provincial ERA, la empresa puede generar e inyectar energía limpia a la red.
+
+
+Como pioneros en energía renovable e ingeniería, contamos con la experiencia y los conocimientos necesarios para diseñar e implementar una solución a medida para tu empresa. No dudes en contactarnos para comenzar tu transición a la energía renovable y contribuir a un futuro más sostenible.
+
+Para más noticias, seguinos en nuestras redes.
+</p>
+
+      </div>
+
+      
+
+      
+
+    </section>  
+
+
+
+    <hr>
+  
+
+
+
+
 
 
     <!----------------------------IMAGEN - TEXTO------------------------------------------------------------->
