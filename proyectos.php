@@ -45,26 +45,27 @@
 
   <article class="">
 
+<?php include("php/conexion.php");?>
 
+<?php $sql = "SELECT * FROM proyectos order by id desc";
+
+$result = mysqli_query($conn, $sql);
+
+while ($fila = mysqli_fetch_assoc($result)){ ?>
 
     <!----------------------------IMAGEN - TEXTO------------------------------------------------------------->
     
 
     <section class=" auto-article row my-5">
 
-            <div class="col-md-6" style=""><img src="img/carr1.jpg" alt=""></div>
+            <div class="col-md-6" style=""><img style=""src="adminhub/<?php echo $fila['imagen']?>" alt=""></div>
 
 
 
             <div class="col-md-6 mt-2">
 
-                    <h3 class="h2 bd-callout px-2 ">Instalaciones Fotovoltaicas – Ingeniería - Asesoramiento</h3>
-                  <p>B&C Tech cueta con gran cantidad de instalaciones fotovoltaicas realizadas en la región, las mismas
-                  ingresadas bajo el nuevo “Programa ERA”.<br>
-                  Actualmente posicionados como referencia para brindar soluciones de ingeniería en energías
-                  Renovables.
-                  Por otro lado, hemos logrado brindar el servicio de ingeniería para poder hacer el dimensionamiento,
-                  revisión y certificación de numerosas instalaciones en toda la provincia de Santa Fe.</p>
+                    <h3 class="h2 bd-callout px-2 "><?php echo $fila['titulo'] ?></h3>
+                  <p><?php echo nl2br($fila['texto']); ?></p>
 
             </div>
 
@@ -72,7 +73,7 @@
     </section>
 
     <hr>
-    
+    <?php } ?>
     <!----------------------------------------------------------------------------------------->
     
 
@@ -111,7 +112,9 @@
                   usuarios en la localidad se beneficien a través de la inyección de energía del nuevo sistema. Esto es
                   llevado a cabo por medio de la telemedición, la cual el usuario y la generación no se encuentran en el
                   mismo punto geográfico, logrando una versatilidad a la hora de apostar por una inversión de gran
-                  envergadura.</p>
+                  envergadura.
+                  
+                </p>
                 </div>
   </section>
 
